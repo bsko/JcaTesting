@@ -14,17 +14,14 @@
        <dependency>
          <groupId>com.googlecode.jcasockets</groupId>
          <artifactId>sockets-api</artifactId>
-         <version>${project.version}</version>
        </dependency>
        <dependency>
          <groupId>com.googlecode.jcasockets</groupId>
          <artifactId>sockets-jar</artifactId>
-         <version>${project.version}</version>
        </dependency>
        <dependency>
-          <groupId>com.testing</groupId>
-          <artifactId>just-a-test</artifactId>
-          <version>1.0-SNAPSHOT</version>
+           <groupId>com.googlecode.jcasockets</groupId>
+           <artifactId>sockets-listener</artifactId>
        </dependency>
    </dependencies>
    <build>
