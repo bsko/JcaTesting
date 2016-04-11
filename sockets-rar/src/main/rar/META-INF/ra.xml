@@ -38,6 +38,18 @@
       <config-property-value>localhost</config-property-value>
     </config-property>
 
+    <outbound-resourceadapter>
+      <connection-definition>
+        <managedconnectionfactory-class>com.googlecode.jcasockets.ManagedConnectionFactory</managedconnectionfactory-class>
+        <connectionfactory-interface>com.googlecode.jcasockets.ConnectionFactory</connectionfactory-interface>
+        <connectionfactory-impl-class>com.googlecode.jcasockets.ConnectionFactoryImpl</connectionfactory-impl-class>
+        <connection-interface>com.googlecode.jcasockets.Connection</connection-interface>
+        <connection-impl-class>com.googlecode.jcasockets.ConnectionImpl</connection-impl-class>
+      </connection-definition>
+      <transaction-support>NoTransaction</transaction-support>
+      <reauthentication-support>false</reauthentication-support>
+    </outbound-resourceadapter>
+
     <!-- ResourceAdapter default configuration properties -->
     <!-- The inbound resource adapter description -->
     <inbound-resourceadapter>

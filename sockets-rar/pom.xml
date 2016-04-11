@@ -21,6 +21,10 @@
        </dependency>
        <dependency>
            <groupId>com.googlecode.jcasockets</groupId>
+           <artifactId>sockets-client</artifactId>
+       </dependency>
+       <dependency>
+           <groupId>com.googlecode.jcasockets</groupId>
            <artifactId>sockets-listener</artifactId>
        </dependency>
    </dependencies>

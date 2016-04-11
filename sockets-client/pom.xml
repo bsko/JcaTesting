@@ -29,9 +29,6 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
-    <build>
-        <finalName>sockets-client</finalName>
-    </build>
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
